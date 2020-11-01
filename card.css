@@ -1,0 +1,61 @@
+.card {
+  position: relative;
+  background-color: white;
+  margin: 10px auto 30px;
+  width: 320px;
+  height: 230px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 3px 9px rgb(189, 154, 154);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0.4em;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.7em;
+}
+
+img{
+  position: absolute;
+  bottom: 25px;
+  right: 25px
+
+}
+
+.supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+}

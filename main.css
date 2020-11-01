@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 25px;
+    margin: 20px auto 0;
+    width: 310px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 310px;
+}
+
+header p {
+    font-size: 16px;
+    font-weight: 200;
+    width: 280px;
+    margin: 20px auto 50px;
+    line-height: 1.7em;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    header p{
+        width: 500px;
+        margin-bottom: 20px;
+    }
+}
